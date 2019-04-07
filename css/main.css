@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    font-family: 'Germania One', cursive;
+}
+.main {
+background-color: #fff;
+display: flex;
+width: 95%;
+max-width: 1000px;
+margin: auto;
+box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+flex-wrap: wrap;
+}
+.author {
+color: #111;
+text-decoration: none;
+border-bottom: 2px solid transparent;
+transition: 0.3s;
+
+
+}
+
+
+
+
+
+
+
+.link-wrapper {
+padding: 50px 0;
+display: flex;
+justify-content: center;
+-ms-align-items: center;
+align-items: center;
+
+
+
+
+}
+
+
+
+
+
+
+@media all and (min-width: 1200px){
+.img_link:hover {
+opacity: 1;
+transform: scale(1.2) rotate(5deg);
+z-index: 10;
+box-shadow: 0 0 200px 30px rgba(0,0,0,0.4);
+
+
+
+
+}
+
+
+
+
+
+}
+
+
+@media all and (max-width: 768px){
+.item{ max-width: initial;
+    max-height: initial;
+   width: 95vw;
+  height: calc(95vw / 16 * 9);
+
+
+}
+.img_link{
+margin: 5px 0;
+
+
+
+
+}
+}
+
+.item {
+max-height: 265px;
+max-width: 490px;
+width: calc(95vw / 2 - 10px);
+height: calc(95vw / 2 / 16 * 9);
+background-color: dodgerblue;
+/*margin: 5px;*/
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover; 
+}
+.heading {
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+}
+.img_link {
+    display: block;
+    opacity: 0.65;
+    margin: 5px;
+    transition: opacity 0.4s ease, transform 0.2 ease-in, box-shadow 0.3s ease-out;
+    
+
+
+
+
+}
+.img_link:hover {
+    opacity: 1;
+    transform: scale(1.2) rotate(5deg); 
+    z-index: 10;
+    box-shadow: 0 0 200px 30px rgba(0,0,0,0.4);
+
+
+}
